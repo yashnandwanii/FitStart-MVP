@@ -61,7 +61,7 @@ class _StartupViewState extends State<StartupView> {
             color: Theme.of(context).primaryColorDark,
           ),
           Image.asset(
-            'assets/images/fitstart_logo.png',
+            'assets/images/ic_launcher.png',
             width: media.width * 0.7,
             height: media.height * 0.7,
             fit: BoxFit.contain,

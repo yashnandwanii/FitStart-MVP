@@ -26,7 +26,7 @@ class _WelcomeViewState extends State<WelcomeView> {
             height: media.height * 0.4,
             decoration: BoxDecoration(
               image: DecorationImage(
-                image: const AssetImage('assets/images/fitstart_logo.png'),
+                image: const AssetImage('assets/images/ic_launcher.png'),
                 fit: BoxFit.contain,
                 alignment: Alignment.center,
               ),

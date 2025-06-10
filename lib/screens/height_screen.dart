@@ -121,6 +121,7 @@ class _HeightScreenState extends State<HeightScreen> {
     final textColor = theme.colorScheme.onBackground;
     return Scaffold(
       appBar: AppBar(
+        leading: null,
         title: Text(
           'Height',
           style: TextStyle(
