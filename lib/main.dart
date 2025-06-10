@@ -18,9 +18,12 @@ Future<void> main() async {
 }
 
 class MyApp extends StatelessWidget {
-  final ThemeController _themeController = Get.put(ThemeController());
   MyApp({super.key});
+
   final supabase = Supabase.instance.client;
+
+  final ThemeController _themeController = Get.put(ThemeController());
+
   @override
   Widget build(BuildContext context) {
     return ScreenUtilInit(
